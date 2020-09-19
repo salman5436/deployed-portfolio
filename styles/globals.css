@@ -1,0 +1,238 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.header {
+  color: white;
+  display: flex;  
+  padding-top: 30px;  
+  justify-content: center;  
+  position: relative;  
+  height: 600px;  
+  min-height: 400px;  
+  width: 100%;
+  background: url('/header-background.jpg');  
+  background-size: cover !important;  
+  -webkit-background-size: cover !important;  
+  text-align: center;  
+  overflow: hidden;
+}
+
+.banner-text{
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: rgba(23, 64, 151, 0.4);
+  border-radius: 2em;
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+}
+
+hr {
+  border: solid #E3E3E3;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 11px 0 30px;
+  height: 0;
+  border-color: rgba(150, 150, 150, .1);
+  width: 60%;
+  margin: 10px auto 10px auto;
+  border-color: #2F2D2E;
+}
+
+.header-icons .MuiIconButton-root .MuiSvgIcon-root {
+  color: white;
+  font-size: 40px !important;
+}
+
+/* .resume .MuiButton-root {
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  color: #fff;
+  background: #444!important;
+} */
+
+
+.intro {
+ display: block;
+}
+
+.intro h1 {
+  font-size: 6.5vw;
+  margin-bottom: 0;
+ }
+
+.intro p {
+ font-size: 2vw;
+ margin-top: 0;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 200px;    
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  border: 2px solid grey;
+  border-radius: 25%;
+}
+
+.about {
+  margin: 0-auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 90px;
+  background-color: #2B2B2B;
+}
+
+.about-me {
+  margin-top: 20px;
+}
+
+.about-me h1 {
+  color: #ffffff;
+}
+
+.about-me p {
+  color: #7A7A7A;
+  line-height: 30px;
+}
+
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact h1 {
+  color: #ffffff;
+
+}
+
+.contact p {
+  color: #7A7A7A;
+  line-height: 30px;
+}
+
+.details h1 {
+  margin-bottom: 0;
+}
+
+.details {
+  display: flex;
+  flex: 0.70;
+  flex-direction: column;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.skills {
+  margin: 0-auto;
+  background-color: grey;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+
+
+.skills-header h1 {
+  font-size: 3vw;
+  
+}
+
+.experience1 {
+  font-size: 1.7vw;
+  line-height: 10px;
+}
+
+.experience2 {
+  font-size: 1.7vw;
+  line-height: 10px;
+
+}
+
+.experience3 {
+  font-size: 1.7vw;
+  line-height: 10px;
+}
+
+.projects__container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.projects__header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.projects__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.each-project {
+  border: 1px solid black;
+  position: relative;
+  height: 350px;
+  width: 350px;
+  margin: 30px;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,.75);
+}
+
+.each-project img {
+  height: 350px;
+  width: 350px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__description h3 {
+  margin-bottom: 0;
+}
+
+.each-project:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
