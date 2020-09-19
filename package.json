@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "deployed-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salman5436/porfolio.git"
+    "url": "git+https://github.com/salman5436/deployed-porfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/salman5436/porfolio/issues"
+    "url": "https://github.com/salman5436/deployed-porfolio/issues"
   },
-  "homepage": "https://github.com/salman5436/porfolio#readme"
+  "homepage": "https://github.com/salman5436/deployed-porfolio#readme"
 }

@@ -1,4 +1,4 @@
-export default function Project () {
+export default function Projects () {
     return (
       <div className="projects__container">
           <h1 className="projects__header">Check Out My Projects:</h1>
