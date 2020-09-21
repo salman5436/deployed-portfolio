@@ -52,16 +52,21 @@ hr {
   font-size: 40px !important;
 }
 
-/* .resume .MuiButton-root {
+.resume .MuiButton-root {
   font-weight: 500;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 15px;
   color: #fff;
-  background: #444!important;
-} */
+  background: #bada55!important;
+}
 
+.resume .MuiButton-root:hover {
+  background: #fff!important;
+  color: darkslategrey;
+  transition: all .2s ease-in-out;
+}
 
 .intro {
  display: block;
@@ -77,6 +82,17 @@ hr {
  margin-top: 0;
 }
 
+.about {
+  margin: 0-auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 90px;
+  background-color: #2B2B2B;
+  flex-wrap: wrap;
+}
+
+
 .profile-pic img {
   width: 150px;
   height: 200px;    
@@ -87,17 +103,17 @@ hr {
   border-radius: 25%;
 }
 
-.about {
-  margin: 0-auto;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 60px;
-  padding-top: 90px;
-  background-color: #2B2B2B;
+.profile-pic {
+  flex: 0.20;
+}
+
+.about-details {
+  flex: 1;
 }
 
 .about-me {
   margin-top: 20px;
+  max-width: 1000px;
 }
 
 .about-me h1 {
