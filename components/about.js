@@ -13,7 +13,7 @@ export default function About () {
                         I recently graduated from Texas A&M University and worked in business management before making the transition to software engineering.
                         Having recently completed the General Assembly Software Engineering Immersive, I gained hands-on project experience with various tools and technologies.  In my free time,
                         you can find me singing covers, writing poetry or stories, playing cooperative videogames, trying food from different cultures, and travelling!  I love connecting with people
-                        and I encourage you to reach out and get to know me 
+                        and I encourage you to reach out and get to know me!
                     </p>
                 </div>
                 <div className="contact">
